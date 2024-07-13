@@ -10,7 +10,8 @@
     "lint:fix": "eslint --cache --fix src",
     "preview": "vite preview",
     "prepare": "husky install",
-    "test": "jest --clearCache && jest --coverage"
+    "test": "jest --clearCache && jest --coverage",
+    "cypress": "npx cypress run --browser chrome --spec './cypress/e2e/blogsListing.cy.ts'"
   },
   "dependencies": {
     "husky": "^9.0.11",
@@ -36,6 +37,7 @@
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",
     "babel-jest": "^29.7.0",
+    "cypress": "^13.13.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",

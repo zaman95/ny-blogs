@@ -12,7 +12,7 @@ export type Media = {
 export type BlogItem = {
   abstract: string;
   byline: string;
-  des_facet?: string[];
+  des_facet: string[];
   geo_facet?: string[];
   id: number;
   media: Media[] | [];
@@ -25,7 +25,7 @@ export type BlogItem = {
   type: string;
   updated: string;
   url: string;
-  per_facet?: string[]
+  per_facet: string[]
 };
 
 export type blogListProps = {

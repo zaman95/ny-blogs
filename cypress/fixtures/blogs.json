@@ -1,0 +1,243 @@
+{
+  "results": [
+    {
+      "uri": "nyt://article/734e64ea-382f-5c87-86a7-45173101945d",
+      "url": "https://www.nytimes.com/2024/07/11/us/politics/biden-news-conference-takeaways.html",
+      "id": 100000009567097,
+      "asset_id": 100000009567097,
+      "source": "New York Times",
+      "published_date": "2024-07-11",
+      "updated": "2024-07-12 06:04:38",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;International Relations;Israel-Gaza War (2023- );Russian Invasion of Ukraine (2022);Biden, Joseph R Jr;Harris, Kamala D;Trump, Donald J;Democratic Party;North Atlantic Treaty Organization;Gaza Strip;Ukraine",
+      "column": null,
+      "byline": "By Zolan Kanno-Youngs",
+      "type": "Article",
+      "title": "Five Takeaways From Biden’s News Conference",
+      "abstract": "In a nearly hourlong news conference, the president defended his decision to stay in the race amid questions about his age and mental acuity, but also showed a command of foreign policy.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2024",
+        "International Relations",
+        "Israel-Gaza War (2023- )",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": ["Democratic Party", "North Atlantic Treaty Organization"],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Harris, Kamala D",
+        "Trump, Donald J"
+      ],
+      "geo_facet": ["Gaza Strip", "Ukraine"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden at a news conference in Washington on Thursday night.",
+          "copyright": "Eric Lee/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/11/us/politics/11dc-presser/11dc-presser-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/11/us/politics/11dc-presser/11dc-presser-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/11/us/politics/11dc-presser/11dc-presser-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/bc7cf11f-d8a2-5249-956c-436afcb26ddb",
+      "url": "https://www.nytimes.com/2024/07/12/us/politics/hakeem-jeffries-biden-democrats.html",
+      "id": 100000009568502,
+      "asset_id": 100000009568502,
+      "source": "New York Times",
+      "published_date": "2024-07-12",
+      "updated": "2024-07-12 22:13:33",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Elections, House of Representatives;Presidential Election of 2024;Jeffries, Hakeem;Biden, Joseph R Jr;Democratic Party;House of Representatives",
+      "column": null,
+      "byline": "By Annie Karni",
+      "type": "Article",
+      "title": "Biden Holds Firm as Worried Democrats Take Their Case Directly to Him",
+      "abstract": "After the House minority leader visited the White House to share Democrats’ concerns over his candidacy, the president held a tense virtual session with lawmakers in which he resisted a call to step aside.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Elections, House of Representatives",
+        "Presidential Election of 2024"
+      ],
+      "org_facet": ["Democratic Party", "House of Representatives"],
+      "per_facet": ["Jeffries, Hakeem", "Biden, Joseph R Jr"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Representative Hakeem Jeffries, the House Democratic leader, has offered no hint of whether he shared his own conclusions with President Biden about whether he thinks the president should step aside.",
+          "copyright": "Cheriss May for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/12/multimedia/12election-live-jeffries-kqpg/12election-live-jeffries-kqpg-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/12/multimedia/12election-live-jeffries-kqpg/12election-live-jeffries-kqpg-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/12/multimedia/12election-live-jeffries-kqpg/12election-live-jeffries-kqpg-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/41820778-8995-588a-8c17-7a0581c9705c",
+      "url": "https://www.nytimes.com/interactive/2024/07/11/opinion/editorials/donald-trump-2024-unfit.html",
+      "id": 100000009564507,
+      "asset_id": 100000009564507,
+      "source": "New York Times",
+      "published_date": "2024-07-11",
+      "updated": "2024-07-12 10:06:57",
+      "section": "Opinion",
+      "subsection": "Editorials",
+      "nytdsection": "opinion",
+      "adx_keywords": "Presidential Election of 2024;United States Politics and Government;Presidents and Presidency (US);Trump, Donald J",
+      "column": null,
+      "byline": "By The Editorial Board",
+      "type": "Interactive",
+      "title": "Donald Trump Is Unfit to Lead",
+      "abstract": "He failed the tests of leadership and betrayed America. Voters must stand up to him in November.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "United States Politics and Government",
+        "Presidents and Presidency (US)"
+      ],
+      "org_facet": [],
+      "per_facet": ["Trump, Donald J"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "Damon Winter/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/11/multimedia/11trumpeditorial2-fbkh/11trumpeditorial2-fbkh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/11/multimedia/11trumpeditorial2-fbkh/11trumpeditorial2-fbkh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/11/multimedia/11trumpeditorial2-fbkh/11trumpeditorial2-fbkh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9d877e1b-c64c-5f94-bca3-ef82acfda1e8",
+      "url": "https://www.nytimes.com/2024/07/12/technology/eric-schmidt-affair.html",
+      "id": 100000009554950,
+      "asset_id": 100000009554950,
+      "source": "New York Times",
+      "published_date": "2024-07-12",
+      "updated": "2024-07-12 16:49:24",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Arbitration, Conciliation and Mediation;Suits and Litigation (Civil);Frauds and Swindling;Public Relations and Publicity;Venture Capital;Adultery;Computers and the Internet;Schmidt, Eric E;Simon, Marcy (Public Relations Executive);Rundell, Derek;Gary Coursey;Away (JRSK Inc);Google Inc",
+      "column": null,
+      "byline": "By John Carreyrou",
+      "type": "Article",
+      "title": "The End of the Affair? Not for Eric Schmidt.",
+      "abstract": "While Mr. Schmidt was chief executive of Google, he had an extramarital relationship with Marcy Simon, a public relations executive. A decade after they split, things are still messy.",
+      "des_facet": [
+        "Arbitration, Conciliation and Mediation",
+        "Suits and Litigation (Civil)",
+        "Frauds and Swindling",
+        "Public Relations and Publicity",
+        "Venture Capital",
+        "Adultery",
+        "Computers and the Internet"
+      ],
+      "org_facet": ["Away (JRSK Inc)", "Google Inc"],
+      "per_facet": [
+        "Schmidt, Eric E",
+        "Simon, Marcy (Public Relations Executive)",
+        "Rundell, Derek",
+        "Gary Coursey"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Joan Wong; Photographs by Haiyun Jiang for The New York Times; Alamy",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/09/business/00maplebeach-sub/00maplebeach-sub-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/09/business/00maplebeach-sub/00maplebeach-sub-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/09/business/00maplebeach-sub/00maplebeach-sub-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

@@ -15,14 +15,15 @@ const mockBlogs: BlogItem[] = [
     media: [
       {
         'media-metadata': [
-          { url: 'https://testimage.url', key: 'value' },
-          { url: 'https://testimage.url', key: 'value' },
-          { url: 'https://testimage.url', key: 'value' },
+          { url: 'https://testimage.url/1', key: 'value' },
+          { url: 'https://testimage.url/2', key: 'value' },
+          { url: 'https://testimage.url/3', key: 'value' },
         ],
         otherKey: 'value',
       },
     ],
     org_facet: ['org1', 'org2'],
+    per_facet: ['keyword1', 'keyword2'],
     published_date: '2023-07-07',
     section: 'Test Section',
     source: 'Test Source',
@@ -52,17 +53,19 @@ describe('Blogs Component', () => {
     render(<Blogs blogs={mockBlogs} setSelectedBlog={mockSetSelectedBlog} />);
     const postImageElement = screen.getByAltText('');
     expect(postImageElement).toBeInTheDocument();
-    expect(postImageElement).toHaveAttribute('src', 'https://testimage.url');
+    expect(postImageElement).toHaveAttribute('src', 'https://testimage.url/2');
   });
 
   it('does not render the blog image if media is not available', () => {
     const blogsWithoutMedia = [
       {
         ...mockBlogs[0],
-        media: []
+        media: [],
       },
     ];
-    render(<Blogs blogs={blogsWithoutMedia} setSelectedBlog={mockSetSelectedBlog} />);
+    render(
+      <Blogs blogs={blogsWithoutMedia} setSelectedBlog={mockSetSelectedBlog} />
+    );
     const postImageElement = screen.queryByAltText('');
     expect(postImageElement).not.toBeInTheDocument();
   });

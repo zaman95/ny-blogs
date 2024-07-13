@@ -9,7 +9,7 @@ export default function BlogDetail({ selectedBlog }: blogDetailProps) {
           <a className='link'>{selectedBlog.title}</a>
         </span>
 
-        {selectedBlog.media && selectedBlog.media.length ? (
+        {selectedBlog.media && selectedBlog.media.length && selectedBlog.media[0]['media-metadata'] ? (
           <img
             className='postImg'
             src={selectedBlog.media[0]['media-metadata'][2].url}

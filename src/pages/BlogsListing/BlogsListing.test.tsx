@@ -17,7 +17,16 @@ const mockBlogs: BlogItem[] = [
     des_facet: ['facet1', 'facet2'],
     geo_facet: ['geo1', 'geo2'],
     id: 1,
-    media: [],
+    media: [
+      {
+        'media-metadata': [
+          { url: 'https://testimage.url/1', key: 'value' },
+          { url: 'https://testimage.url/2', key: 'value' },
+          { url: 'https://testimage.url/3', key: 'value' },
+        ],
+        otherKey: 'value',
+      },
+    ],
     org_facet: ['org1', 'org2'],
     published_date: '2023-01-01',
     section: 'Test section',
