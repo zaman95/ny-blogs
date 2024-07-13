@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@app/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "src/setupTests.ts"],
+}
