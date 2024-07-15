@@ -6,10 +6,10 @@ export default function BlogDetail({ selectedBlog }: blogDetailProps) {
     <div className='sidebar'>
       <div className='sidebarItem'>
         <span className='sidebarTitle'>
-          <a className='link'>{selectedBlog.title}</a>
+          <span className='link'>{selectedBlog.title}</span>
         </span>
 
-        {selectedBlog.media && selectedBlog.media.length && selectedBlog.media[0]['media-metadata'] ? (
+        {selectedBlog.media?.length && selectedBlog.media[0]['media-metadata'] ? (
           <img
             className='postImg'
             src={selectedBlog.media[0]['media-metadata'][2].url}
@@ -24,7 +24,7 @@ export default function BlogDetail({ selectedBlog }: blogDetailProps) {
           {selectedBlog.des_facet.map((des) => {
             return (
               <li key={des} className='sidebarListItem'>
-                <a className='link'>{des}</a>
+                <span className='link'>{des}</span>
               </li>
             );
           })}
@@ -36,7 +36,7 @@ export default function BlogDetail({ selectedBlog }: blogDetailProps) {
           {selectedBlog.per_facet.map((per) => {
             return (
               <li key={per} className='sidebarListItem'>
-                <a className='link'>{per}</a>
+                <span className='link'>{per}</span>
               </li>
             );
           })}

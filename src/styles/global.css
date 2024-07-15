@@ -66,7 +66,7 @@ body {
 
 /* Posts section */
 .posts {
-  flex: 5;
+  flex: 6;
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
@@ -140,7 +140,9 @@ body {
 /* sidebar  */
 
 .sidebar {
-  flex: 7;
+  position: sticky;
+  top: 0;
+  flex: 6;
   height: fit-content;
   margin: 20px;
   padding-bottom: 30px;
@@ -164,7 +166,6 @@ body {
   border-top: solid 1px #a7a4a4;
   border-bottom: solid 1px #a7a4a4;
   text-align: center;
-  font-family: 'Varela Round', sans-serif;
   color: #222222;
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
